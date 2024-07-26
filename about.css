@@ -1,0 +1,84 @@
+body {
+  color: rgb(64, 63, 63);
+  background: linear-gradient(0deg, #b7f6f2, #b2e6e6);
+}
+#overview {
+  background: url("images/downtown-miami.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+#overview h1 {
+  color: #fff;
+  width: 800px;
+  font-family: "Oleo Script", sans-serif;
+  font-size: 80px;
+  position: relative;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  top: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+#about {
+  display: flex;
+  padding: 30px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.about-summary {
+  width: 1000px;
+  padding-right: 20px;
+}
+
+.about-image img {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgba(68, 67, 67);
+}
+
+.about-summary ul li {
+  border-left: 3px solid #101010;
+  margin: 3px;
+  padding-left: 5px;
+}
+
+h2 {
+  margin: 0;
+  color: rgb(46, 45, 45);
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.about-summary p a {
+  background-color: #ffff00;
+  padding: 4px 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgba(68, 67, 67);
+}
+
+.about-summary p a:hover {
+  background-color: #acac04;
+}
+
+#mission-vision {
+  display: flex;
+  padding: 30px;
+  background-color: #a7e8e8;
+}
+
+#mission-vision h2 {
+  text-align: right;
+}
+
+.vision {
+  padding-left: 30px;
+}
