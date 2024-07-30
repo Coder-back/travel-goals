@@ -1,5 +1,5 @@
 #hero {
-  height: 800px;
+  height: 50rem;
   background-image: url("/images/ocean.jpg");
   background-position: center;
   background-size: cover;
@@ -11,16 +11,16 @@
   box-shadow: 2px 4px 8px rgba(68, 67, 67);
   border-radius: 8px;
   text-align: center;
-  padding: 50px 0;
+  padding: 3.125rem 0;
   margin: 0 auto;
   position: relative;
-  top: 200px;
+  top: 12.5rem;
 }
 
 #hero-content h1 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 3.125rem;
   font-family: "Raleway", sans-serif;
   margin: 0;
 }
@@ -28,15 +28,15 @@
 #hero-content p {
   color: #fff;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 #hero-content a {
   background-color: #ffff00;
-  padding: 12px 24px;
-  font-size: 24px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
   border-radius: 8px;
   box-shadow: 2px 4px 8px rgba(68, 67, 67);
@@ -47,33 +47,33 @@
 }
 
 #highlights {
-  padding: 24px;
+  padding: 1.5rem;
   background: linear-gradient(0deg, #b7f6f2, #b2e6e6);
 }
 
 #highlights h2 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: rgb(80, 79, 79);
-  margin: 24px 0;
+  margin: 1.5rem 0;
 }
 
 #places {
   display: flex;
   width: 90%;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   justify-content: center;
 }
 
 .destination {
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 .destination img {
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   box-shadow: 2px 4px 8px rgba(68, 67, 67);
   border-radius: 10px;
   object-fit: cover;
@@ -82,12 +82,37 @@
 .destination p {
   text-align: center;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: rgb(132, 130, 130);
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 .destination span {
   font-weight: bold;
   color: #07c446;
+}
+
+@media (max-width: 48rem) {
+  #her0 {
+    height: 25rem;
+  }
+  #hero-content h1 {
+    font-size: 1.5625rem;
+  }
+
+  #hero-content p, #hero-content a {
+    font-size: 0.75rem;
+  }
+
+  #highlights h2 {
+    font-size: 1.5rem;
+  }
+
+  #places {
+    flex-direction: column;
+  }
+
+  .destination p {
+    font-size: 1rem;
+  }
 }

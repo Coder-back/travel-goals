@@ -6,7 +6,7 @@ body {
 
 #overview {
   background: url("images/downtown-miami.jpg");
-  height: 400px;
+  height: 25rem;
   background-position: center;
   background-size: cover;
 }
@@ -15,12 +15,12 @@ body {
   color: #fff;
   width: 60%;
   font-family: "Oleo Script", sans-serif;
-  font-size: 80px;
+  font-size: 5rem;
   position: relative;
   margin: auto;
-  padding: 30px;
+  padding: 1.8rem;
   text-align: center;
-  top: 100px;
+  top: 6.25rem;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 6px;
 }
@@ -29,19 +29,18 @@ body {
 #mission-vision {
   width: 90%;
   display: flex;
-  padding: 24px;
+  padding: 1.5rem;
   margin: auto;
   box-sizing: border-box;
   background: linear-gradient(0deg, #b7f6f2, #b2e6e6);
 }
 
 .about-summary {
-  /* width: 1000px; */
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 
 .about-image img {
-  width: 400px;
+  width: 25rem;
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -51,20 +50,20 @@ body {
 
 .about-summary ul li {
   border-left: 3px solid #101010;
-  margin: 3px;
-  padding-left: 5px;
+  margin: 0.2rem;
+  padding-left: 0.3rem;
 }
 
 h2 {
   margin: 0;
   color: rgb(46, 45, 45);
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 .about-summary p a {
   background-color: #ffff00;
-  padding: 4px 12px;
+  padding: 0.25rem 0.75rem;
   font-weight: bold;
   border-radius: 8px;
   box-shadow: 2px 4px 8px rgba(68, 67, 67);
@@ -84,5 +83,5 @@ h2 {
 }
 
 .vision {
-  padding-left: 30px;
+  padding-left: 1.8rem;
 }

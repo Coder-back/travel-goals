@@ -17,7 +17,7 @@ nav li a:hover {
 }
 
 #side-drawer li a:hover {
-  background-color: aqua;
+  background-color: rgb(7, 223, 223);
 
 }
 
@@ -32,8 +32,8 @@ nav li a:hover {
 main ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 1200px;
-  margin: 0 auto 48px auto;
+  width: 75rem;
+  margin: 0 auto 3rem auto;
   gap: 20px 20px;
 }
 
@@ -50,8 +50,8 @@ main li {
 }
 
 main li img {
-  width: 300px;
-  height: 300px;
+  width: 19rem;
+  height: 19rem;
   object-fit: cover;
 }
 
@@ -59,7 +59,7 @@ main li img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 24px;
+  padding: 1.5rem;
 }
 
 .destination-content h2 {
@@ -71,7 +71,7 @@ main li img {
 }
 
 .action a {
-  padding: 6px;
+  padding: 0.4rem;
   color: rgb(2, 251, 251);
   border-radius: 6px;
 }
