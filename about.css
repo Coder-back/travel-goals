@@ -4,7 +4,6 @@ body {
   margin: 0;
 }
 
-
 #overview {
   background: url("images/downtown-miami.jpg");
   height: 400px;
@@ -14,7 +13,7 @@ body {
 
 #overview h1 {
   color: #fff;
-  width: 800px;
+  width: 60%;
   font-family: "Oleo Script", sans-serif;
   font-size: 80px;
   position: relative;
@@ -26,11 +25,12 @@ body {
   border-radius: 6px;
 }
 
-#about ,#mission-vision {
+#about,
+#mission-vision {
   width: 90%;
   display: flex;
-  padding: 30px;
-  margin:  auto;
+  padding: 24px;
+  margin: auto;
   box-sizing: border-box;
   background: linear-gradient(0deg, #b7f6f2, #b2e6e6);
 }
@@ -77,7 +77,7 @@ h2 {
 #mission-vision {
   background-color: #a7e8e8;
   border-radius: 8px;
- }
+}
 
 #mission-vision h2 {
   text-align: right;
