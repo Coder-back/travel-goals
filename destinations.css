@@ -16,6 +16,18 @@ nav li a:hover {
   background-color: rgb(218, 249, 249);
 }
 
+#side-drawer li a:hover {
+  background-color: aqua;
+
+}
+
+.menu-btn {
+  color: #fff;
+}
+
+.menu-btn :hover{
+ color: aqua;
+}
 
 main ul {
   display: grid;
