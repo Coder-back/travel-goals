@@ -97,14 +97,18 @@
     height: 35rem;
   }
   #hero-content {
-    top: 7rem;
+    top: 8rem;
   }
   #hero-content h1 {
     font-size: 1.5625rem;
   }
 
-  #hero-content p, #hero-content a {
-    font-size: 0.75rem;
+  #hero-content p {
+    font-size: 0.9rem;
+  }
+
+  #hero-content a{
+    font-size: 1rem;
   }
 
   #highlights h2 {
@@ -113,6 +117,7 @@
 
   #places {
     flex-direction: column;
+    margin-bottom: 1.5rem;
   }
 
   .destination p {
