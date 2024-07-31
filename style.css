@@ -97,17 +97,14 @@
     height: 35rem;
   }
   #hero-content {
+    width: 80%;
     top: 8rem;
   }
   #hero-content h1 {
     font-size: 1.5625rem;
   }
 
-  #hero-content p {
-    font-size: 0.9rem;
-  }
-
-  #hero-content a{
+  #hero-content p, #hero-content a {
     font-size: 1rem;
   }
 
