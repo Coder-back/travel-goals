@@ -18,10 +18,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.9rem 3.6rem;
+  padding: 0.9rem 1.5rem; /* Adjust padding for better alignment */
   position: absolute;
   box-sizing: border-box;
   width: 100%;
+}
+
+#page-logo {
+  margin-right: auto; /* Ensure the logo stays at the far left */
 }
 
 #page-logo a {
@@ -33,11 +37,17 @@ header {
   text-shadow: 1px 1px 2px #000;
 }
 
-header ul {
+nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Ensure the navigation stays at the far right */
+}
+
+nav ul {
   display: flex;
 }
 
-header li {
+nav li {
   margin-left: 1.25rem;
 }
 
@@ -107,9 +117,10 @@ nav li a:hover {
   align-items: center;
   display: none;
   color: #1b1b1b;
+  margin-left: auto; /* Ensure the menu button stays at the far right */
 }
 
-.menu-btn :hover {
+.menu-btn:hover {
   color: #ffff00;
 }
 
@@ -136,11 +147,16 @@ footer p {
   text-align: center;
   margin-bottom: 0;
 }
+
 footer p a {
   color: #fff;
 }
 
 @media (max-width: 48rem) {
+  #page-logo a {
+    font-size: 1.2rem;
+  }
+
   #main-header nav {
     display: none;
   }

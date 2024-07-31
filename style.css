@@ -93,8 +93,11 @@
 }
 
 @media (max-width: 48rem) {
-  #her0 {
-    height: 25rem;
+  #hero {
+    height: 35rem;
+  }
+  #hero-content {
+    top: 7rem;
   }
   #hero-content h1 {
     font-size: 1.5625rem;
