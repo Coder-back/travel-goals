@@ -143,13 +143,25 @@ footer .fa-brands {
   font-size: 2.5rem;
 }
 
+footer div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
 footer p {
+  color: #fff;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0 2.5rem;
+ 
 }
 
 footer p a {
   color: #fff;
+}
+ 
+footer p a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 48rem) {
@@ -163,5 +175,14 @@ footer p a {
 
   .menu-btn {
     display: flex;
+  }
+
+  footer div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer p {
+    margin-bottom: 0.75rem;
   }
 }
